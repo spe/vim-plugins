@@ -2,13 +2,13 @@
 §  User Macros
 § =============================================================
 
-SetMacro( 'AUTHOR',      'YOUR NAME' )
-SetMacro( 'AUTHORREF',   '' )
-SetMacro( 'COMPANY',     '' )
+SetMacro( 'AUTHOR',      'Spencer Tsai' )
+SetMacro( 'AUTHORREF',   'st' )
+SetMacro( 'COMPANY',     'Emerson Network Power, Avocent' )
 SetMacro( 'COPYRIGHT',   'Copyright (c) |YEAR|, |AUTHOR|' )
-SetMacro( 'EMAIL',       '' )
+SetMacro( 'EMAIL',       'spencer.tsai@emerson.com' )
 SetMacro( 'LICENSE',     'GNU General Public License' )
-SetMacro( 'ORGANIZATION','' )
+SetMacro( 'ORGANIZATION','EMRSN/AVOCENT/TW' )
 
 SetFormat( 'DATE', '%x' )
 SetFormat( 'TIME', '%H:%M' )
