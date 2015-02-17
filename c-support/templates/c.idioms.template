@@ -1,27 +1,51 @@
 == Idioms.function == map:if, shortcut:f  ==
-/* 
- * ===  FUNCTION  ======================================================================
- *         Name:  |?FUNCTION_NAME|
- *  Description:  
- * =====================================================================================
- */
-void<CURSOR>
-|FUNCTION_NAME| ( <+argument_list+> )
+/******************************************************************************
+*   FUNCTION        :   |?FUNCTION_NAME|
+******************************************************************************/
+/**
+ *  @brief      None.
+ *
+ *  @return     None.                   
+ *
+ *  @dependency None.
+ *
+ *  @limitation None.
+ *
+ *  @warning    None.
+ *
+ *  @note       None.
+ *
+ *  @internal   Function Type: \n
+ *
+ *****************************************************************************/
+void |FUNCTION_NAME| ( <CURSOR><+argument_list+> )
 {
-<SPLIT>	return <+return_value+>;
-}		/* -----  end of function |FUNCTION_NAME|  ----- */
+<SPLIT> return <+return_value+>;
+}       /* -----  end of function |FUNCTION_NAME|  ----- */
 == Idioms.function-static == map:isf, shortcut:t  ==
-/* 
- * ===  FUNCTION  ======================================================================
- *         Name:  |?FUNCTION_NAME|
- *  Description:  
- * =====================================================================================
- */
-static void<CURSOR>
-|FUNCTION_NAME| ( <+argument_list+> )
+/******************************************************************************
+*   FUNCTION        :   |?FUNCTION_NAME|
+******************************************************************************/
+/**
+ *  @brief      None.
+ *
+ *  @return     None.                   
+ *
+ *  @dependency None.
+ *
+ *  @limitation None.
+ *
+ *  @warning    None.
+ *
+ *  @note       None.
+ *
+ *  @internal   Function Type: \n
+ *
+ *****************************************************************************/
+static void |FUNCTION_NAME| ( <CURSOR><+argument_list+> )
 {
-<SPLIT>	return <+return_value+>;
-}		/* -----  end of static function |FUNCTION_NAME|  ----- */
+<SPLIT> return <+return_value+>;
+}       /* -----  end of function |FUNCTION_NAME|  ----- */
 == Idioms.main == map:im, shortcut:m  ==
 #include	<stdlib.h>
 
